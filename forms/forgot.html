@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+</head>
+
+<body>
+    <!--  Forgot Password Form  -->
+    <center>
+        <!--  After Submitting Form Enroute To Change Password Page  -->
+        <form action="./change_password.html" method="get" autocomplete="off">
+            <br><br><br>
+            <!--  Email or Username Field  -->
+            <input type="email" name="email" placeholder="enter username or email" required>
+            <br><br><br>
+            <!--  New Password field  -->
+            <input type="password" name="new_password" placeholder="enter new password" maxlength="15" minlength="8"
+                required>
+            <br><br><br>
+            <!--  Confirm Password Field  -->
+            <input type="password" name="confirm_password" placeholder="confirm new password" maxlength="15"
+                minlength="8" required>
+            <br><br><br>
+            <!--  OTP Field  -->
+            <input type="number" name="otp" placeholder="Enter OTP Shown Below" required>
+            <h3>OTP:5783</h3>
+            <!--  Form Submission Button  -->
+            <input type="submit" value="submit">
+            <!--  Routing To Register Page  -->
+            <a href="../forms/register.html" target="_blank">Register</a>
+        </form>
+    </center>
+</body>
+
+</html>

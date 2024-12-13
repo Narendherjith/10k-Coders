@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <!--  Login Page Form -->
+    <center>
+        <!--  After Submitting Form Enroute To Login Success Page   -->
+        <form action="login_success.html" method="get" autocomplete="off">
+            <!--  Heading Tags  -->
+            <h1>Welcome To The Tech World </h1>
+            <h2>Login Page</h2>
+
+            <br><br><br>
+            <!--  username Field -->
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <br><br><br>
+            <!--  Password Field -->
+            <input type="password" name="password" placeholder=" Enter Password" maxlength="15" minlength="8"
+                required>
+            <br><br><br>
+            <!--  Form Submission -->
+            <input type="submit" value="login">
+            <br><br><br>
+            <!-- Routing To Forgot Form In New Tab  -->
+            <a href="../forms/forgot.html" target="_blank">Forgot Password</a>
+            <!-- Routing To Register Form In New Tab  -->
+            <a href="../forms/register.html" target="_blank">New User Register here </a>
+        </form>
+    </center>
+</body>
+
+</html>

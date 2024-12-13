@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+
+<body>
+    
+        <!--  After Submitting The Form Enroute To The Register Success Page  -->
+        <form action="../forms/register_success.html" method="get" autocomplete="off">
+            <br><br><br><br>
+            <!-- Username Input Label Field  -->
+            <label for="username">Username</label>
+            <br>
+            <input type="username" id="username" name="username" maxlength="20" minlength="8" required>
+            <br><br>
+            <!--  Password Input Label Field  -->
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password" maxlength="15" minlength="8" required>
+            <br><br>
+            <!-- E-mail Input Label Field  -->
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <!-- Phone No Input Label Field  -->
+            <label for="phone">Contact Number</label>
+            <br>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+            <!-- Routing To Login Page  -->
+            <a href="../forms/login.html">Go Back</a>
+            <!--  Submit The Data  -->
+            <input type="submit" value="Register">
+        </form>
+    
+</body>
+
+</html>
